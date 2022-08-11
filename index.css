@@ -1,0 +1,84 @@
+body{
+    padding-top:4rem ;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+#yay{
+    
+    background-color: whitesmoke;
+    border-style:solid;
+    border-color: rgb(138, 36, 179);
+    width: 40vw;
+    height: 2rem;
+    position: relative;
+    left: 9%;
+
+
+}
+
+.bar{
+    width: 40vw;
+    height: 2rem;
+    background-color: rgb(138, 36, 179);
+    position: relative;
+    
+}
+
+
+
+
+
+p{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-align: center;
+}
+.out-box{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    gap:1rem;
+    border-radius: 0.5rem;
+    
+    
+}
+.out-box2{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    gap:1rem;
+    border-radius: 0.5rem;
+    
+    
+}
+
+/* .inner{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+
+} */
+
+.btn{
+    color: aliceblue;
+    width: 90%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(206, 44, 47);
+    border-color:  rgb(209, 16, 19) ;
+}
