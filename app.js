@@ -1,21 +1,17 @@
 import { attack1 } from './vendor.js';
-import { original_width } from './vendor.js';
-import { monbar } from './vendor.js';
+import { attack2 } from './vendor.js';
+import { W_attack } from './vendor.js';
+import { S_attack } from './vendor.js';
+import { P_Attack } from './vendor.js';
 
-var next = original_width
-
-attack.addEventListener('click', function(){
-    
+W_attack.addEventListener('click', function(){
     let random = attack1()
+    P_Attack(random)
+})
 
-    next = next - random
-    console.log(next)
-    if(next <= 0){
-        monbar.style.width  = "0vw"
-    }
 
-    monbar.style.width  = next+"vw"
+S_attack.addEventListener('click', function(){
     
-
-
+    let random = attack2()
+    P_Attack(random)
 })
